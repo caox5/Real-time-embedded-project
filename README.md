@@ -17,11 +17,10 @@
         <ul>
             <li><a href="#Software">Software</a>
             <li><a href="#Hardware">Hardware</a>
+            <li><a href="#Concept">Concept</a>
         </ul>
-    <li><a href="#Quick-Start">Quick Start</a>
+    <li><a href="#Set environment">Set environment</a>
         <ul>
-            <li><a href="#assembly-and-soldering">Assembly and Soldering</a>
-            <li><a href="#raspberry-pi-for-wiring">Raspberry pi for wiring</a>
             <li><a href="#installation">Installation</a>
                 <ul>
                     <li><a href="#run-the-executable">Run the program</a>
@@ -48,6 +47,11 @@ This program is mainly used for elder people to keep them in safe, that is becau
  - Raspberry Pi Camera Module V2.1 
    - purchase link: https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module
  - 32 GB Micro-SD card
+ 
+ ### Concept
+  - There are three stpes:
+    - 1. 
+
  
 
 
