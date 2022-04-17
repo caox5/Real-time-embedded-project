@@ -1,8 +1,8 @@
-
+<h1 align="center"><b>Fall Detection</b></h1><br><br>
 <p align="center">
-<img alt="Screenshot 2022-04-17 at 22 27 20" src="https://user-images.githubusercontent.com/50026800/163732671-387926f1-9513-4b1d-b710-4ed6c5dd5bbc.png" width="100px" height="100px"></p>
+<img alt="Screenshot 2022-04-17 at 22 27 20" src="https://user-images.githubusercontent.com/50026800/163732671-387926f1-9513-4b1d-b710-4ed6c5dd5bbc.png" width="200px" height="200px"></p>
 
-<h4 align="center"><b>Fall Detection</b></h4>
+
 
 
 
