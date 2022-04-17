@@ -1,8 +1,15 @@
 <h1 align="center"><b>Fall Detection</b></h1><br><br>
 <p align="center">
-<img alt="Screenshot 2022-04-17 at 22 27 20" src="https://user-images.githubusercontent.com/50026800/163732671-387926f1-9513-4b1d-b710-4ed6c5dd5bbc.png" width="200px" height="200px"></p>
+<img alt="Screenshot 2022-04-17 at 22 27 20" src="https://user-images.githubusercontent.com/50026800/163732671-387926f1-9513-4b1d-b710-4ed6c5dd5bbc.png" width="200px" height="200px"></p><br><br>
 
-
+<p align="center">
+    <a href="https://github.com/caox5/Real-time-embedded-project/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/LancerMar/Guitartuner.svg" /></a>
+    <a href="https://github.com/caox5/Real-time-embedded-project/issues" alt="Issues">
+        <img src="https://img.shields.io/github/issues/LancerMar/Guitartuner.svg" /></a>
+    <a href="https://github.com/caox5/Real-time-embedded-project/blob/main/LICENSE" alt="License">
+        <img src="https://img.shields.io/github/license/LancerMar/Guitartuner.svg" /></a>
+</p>
 
 
 
