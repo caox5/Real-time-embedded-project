@@ -10,4 +10,10 @@ This program is mainly used for elder people to keep them in safe, that is becau
   <li>Xin Cao</li>
 </ul>
 
-
+<h3>The hardware of this falling detection progrem:</h3>
+<ul>
+  <li>Raspberry Pi 4 Model B; Memory: 2GB purchase link: https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-4-model-b?variant=20064052674622</li>
+  <li>Raspberry Pi Camera Module V2.1 purchase link: https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module</li>
+  <li>32 GB Micro-SD card</li>
+</ul>
+  
