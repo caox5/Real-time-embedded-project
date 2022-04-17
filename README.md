@@ -4,11 +4,11 @@
 
 <p align="center">
     <a href="https://github.com/caox5/Real-time-embedded-project/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/LancerMar/Guitartuner.svg" /></a>
+        <img src="https://img.shields.io/github/contributors/SunitaAcharya/myYogaMate.svg?style=flat&amp;label=Contributors&amp;maxAge=86400" alt="Contributors" /></a>
     <a href="https://github.com/caox5/Real-time-embedded-project/issues" alt="Issues">
         <img src="https://img.shields.io/github/issues/LancerMar/Guitartuner.svg" /></a>
     <a href="https://github.com/caox5/Real-time-embedded-project/blob/main/LICENSE" alt="License">
-        <img src="https://img.shields.io/github/license/LancerMar/Guitartuner.svg" /></a>
+        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" /></a>
 </p>
 
 
