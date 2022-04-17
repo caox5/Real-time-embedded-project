@@ -11,16 +11,41 @@
         <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" /></a>
 </p>
 
-
-
-<h3>Brief explanation : </h3><hr>
-This program is mainly used for elder people to keep them in safe, that is because most of them are move slowly and once they falling down, they may hard to get up and even life-threatening. This project could do the falling detection and warning the guardian by sending the realtime message or calling them. Additionally, in order to make sure someone will help them after they falling down, developers will send the emails to their families after the fall detection.
-<br><hr>
-
-<h3>Hardware:</h3>
+## Contents
 <ul>
-  <li>Raspberry Pi 4 Model B; Memory: 2GB purchase link: https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-4-model-b?variant=20064052674622</li>
-  <li>Raspberry Pi Camera Module V2.1 purchase link: https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module</li>
-  <li>32 GB Micro-SD card</li>
+    <li><a href="#Introduction">Introduction</a>
+        <ul>
+            <li><a href="#Software">Software</a>
+            <li><a href="#Hardware">Hardware</a>
+        </ul>
+    <li><a href="#Quick-Start">Quick Start</a>
+        <ul>
+            <li><a href="#assembly-and-soldering">Assembly and Soldering</a>
+            <li><a href="#raspberry-pi-for-wiring">Raspberry pi for wiring</a>
+            <li><a href="#installation">Installation</a>
+                <ul>
+                    <li><a href="#run-the-executable">Run the program</a>
+                    <li><a href="#debug">Debug program</a>
+                </ul>
+            <li><a href="#running-tests">Running Tests</a>
+        </ul>
+    <li><a href="#Usage">Usage</a>
+    <li><a href="#Documentation">Documentation</a>
+    <li><a href="#Stretch-Goals">Stretch Goals</a>
 </ul>
+            
+## Introduction
+
+This program is mainly used for elder people to keep them in safe, that is because most of them are move slowly and once they falling down, they may hard to get up and even life-threatening. This project could do the falling detection and warning the guardian by sending the realtime message or calling them. Additionally, in order to make sure someone will help them after they falling down, developers will send the emails to their families after the fall detection.
+
+### Software
+ - Real-time standard tuning
+ - Showing pitch frequency
+### Hardware
+ - Raspberry Pi 4 Model B; Memory: 2GB purchase link: https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-4-model-b?variant=20064052674622
+ - Raspberry Pi Camera Module V2.1 purchase link: https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module
+ - 32 GB Micro-SD card
+ 
+
+
   
