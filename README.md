@@ -106,7 +106,7 @@ Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ 
  <b>When you done these steps, you should be able to use the OpenCV library from C++ or Python. You could use following test case on next part.</b>
  
  ### OpenCV Test
- - You can download the code on your Pi to test:
+ - (Optional)You can download the code on your Pi to test:
  
         git clone https://github.com/sol-prog/raspberry-pi-opencv.git
         cd raspberry-pi-opencv/tests   
