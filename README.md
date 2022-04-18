@@ -63,7 +63,7 @@ This program is mainly used for elder people to keep them in safe, that is becau
 Prerequisites: Have the latest Raspbian installed on your Raspberry Pi
  
 Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ support on Raspberry Pi.
-- 1 . Download the already built OpenCV 4 from [article](https://github.com/sol-prog/raspberry-pi-opencv/releases/), there are four versions, choose the proper version for your Pi. I use full GUI version on a RPi 2 and up. If you are using other versions, make sure you change the file name properly.
+- 1 . Download the already built OpenCV 4 from [article](https://github.com/sol-prog/raspberry-pi-opencv/releases/), there are four versions, choose the proper version for your Pi. <b>I use full GUI version on a RPi 2 and up</b>. If you are using other versions, make sure you change the file name properly.
 - 2 . Open terminal and download it:
 
         wget https://github.com/sol-prog/raspberry-pi-opencv/releases/download/opencv4rpi2.1/opencv-4.1.0-armhf.tar.bz2        
