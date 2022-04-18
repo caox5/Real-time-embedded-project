@@ -15,15 +15,15 @@
 <ul>
     <li><a href="#Introduction">Introduction</a>
         <ul>
-            <li><a href="#Software and programming language">Software and programming language</a>
+            <li><a href="#Software-and-programming-language">Software and programming language</a>
             <li><a href="#Hardware">Hardware</a>
             <li><a href="#Concept">Concept</a>
         </ul>
     <li><a href="#Quick start">Quick start</a>
         <ul>
-            <li><a href="#Connect hardware">Connect hardware</a>
+            <li><a href="#Connect-hardware">Connect hardware</a>
             <li><a href="#Installation">Installation</a>
-            <li><a href="#OpenCV Test">OpenCV Test</a>   
+            <li><a href="#OpenCV-Test">OpenCV Test</a>   
         </ul>
 </ul>
             
