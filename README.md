@@ -11,7 +11,7 @@
         <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" /></a>
 </p>
 
-## Contents 
+## Contents
 <ul>
     <li><a href="#Introduction">Introduction</a>
         <ul>
@@ -51,7 +51,7 @@ This program is mainly used for elder people to keep them in safe, that is becau
     - 3. <b>Remain motionless</b>: the last algorithm is judging whether is really fall or not, the coefficient motion should less than 0.2 from twentieth and the thirtieth frame of the video after falling detected. which means that the time interval is from 0.83 to 1.25 seconds. 
 
 ## Quick start
-  - This part will tell you how to connect hardwares and install the packages to use.
+  - This part will tell you how to connect hardwares and install the packages to use
  
 ### Connect hardware
 <p align="center">
