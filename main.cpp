@@ -136,7 +136,7 @@ int main() {
 
 
         imshow("Original", frame);
-        //imshow("Mask", fgMaskMOG2);
+        imshow("Mask", fgMaskMOG2);
         //imshow("History", history);
 
         if(waitKey(30) == ESC) break;
