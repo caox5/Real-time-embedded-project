@@ -2,6 +2,9 @@
 
 #include "FallDetector.h"
 
+int counter = 0;
+
+
 double FallDetector::getStddev(vector<double>* vec) {
     Scalar mean, stddev;
     if(!vec->empty()) {
@@ -28,6 +31,13 @@ void FallDetector::checkIfStaysInPlace(time_t start, bool* isChecking, bool* isF
 
     if(xDevValue < 2 && yDevValue < 2) {
         *isFall = true;
+        counter = counter + 1;
+        if (counter == 6){
+        system("sudo python3 /home/pi/Desktop/Repo/emailsender.py");
+        counter = 0;
+        }
+        
+
     }
 
     if (!isFall && secondsSinceStart > 2) {
