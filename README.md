@@ -43,8 +43,10 @@ This program is mainly used for elder people to keep them in safe, that is becau
  
 ### Hardware
  - Raspberry Pi 4 Model B; Memory: 2GB 
+    - <p align="center"><img alt="Screenshot 2022-04-18 at 10 45 01" src="https://user-images.githubusercontent.com/50026800/163790690-ccf2e6ba-62aa-4cad-a626-eb86eb2bd2a8.png"  width="200px" height="150px"></p>
    - purchase link: https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-4-model-b?variant=20064052674622
  - Raspberry Pi Camera Module V2.1 
+   - <p align="center"><img  alt="Screenshot 2022-04-18 at 10 45 17" src="https://user-images.githubusercontent.com/50026800/163790875-b79c394a-8754-49ad-b413-951cd316d8dd.png" width="200px" height="150px"></p>
    - purchase link: https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module
  - 32 GB Micro-SD card
  
