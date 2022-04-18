@@ -44,11 +44,11 @@ This program is mainly used for elder people to keep them in safe, that is becau
  - 32 GB Micro-SD card
  
  ### Concept
-  - There are three stpes:
-    - 1. <b>Movement coefficient analysis</b>: the camera should have ability to distinguish whether the motion is falling or normal movement, when the value larger than 0.8, it assumes as falling, additionally, Sudden movements or walk perpendicular also have the high movement cofficient.
-    - 2. <b>Human shape analysis</b>: using ellipse to represent a person, when person falls, the sudden change of orientation and ratio of major and minor axis of ellipse would perfectly represent that person movement. In this case, using standard deviation to calculate the value because is the average amount of variability in dataset. Therefore, when people are falling, the angle theta and axis ration a/b will be higher than normal movement, based on tests and dataset from online, if angle theta greater than 15 degree and axis ratio larger than 0.9, it could considered as falling.
+  - There are three steps:
+    - 1. <b>Movement coefficient analysis</b>: the camera should have the ability to distinguish whether the motion is falling or normal movement, when the value is larger than 0.8, it assumes as falling, additionally, Sudden movements or walk perpendicular also have the high movement coefficient.
+    - 2. <b>Human shape analysis</b>: using an ellipse to represent a person, when a person falls, the sudden change of orientation and ratio of the major and minor axis of the ellipse would perfectly represent that person's movement. In this case, using standard deviation to calculate the value is the average amount of variability in the dataset. Therefore, when people are falling, the angle theta and axis ratio a/b will be higher than normal movement, based on tests and datasets online, if the angle theta is greater than 15 degrees and the axis ratio is larger than 0.9, it could be considered falling.
     - <p align="center"><img alt="Screenshot 2022-04-18 at 10 45 01" src="https://user-images.githubusercontent.com/50026800/163798022-d8dc20c8-7104-4151-a761-fc2b66bb44fa.jpeg"  width="650px" height="400px"></p>
-    - 3. <b>Remain motionless</b>: the last algorithm is judging whether is really fall or not, the coefficient motion should less than 0.2 from twentieth and the thirtieth frame of the video after falling detected. which means that the time interval is from 0.83 to 1.25 seconds. 
+    - 3. <b>Remain motionless</b>: the last algorithm in judging whether it really falls or not, the coefficient motion should be less than 0.2 from the twentieth and the thirtieth frame of the video after falling is detected. which means that the time interval is from 0.83 to 1.25 seconds. 
 
 ## Quick start
   - This part will tell you how to connect hardwares and install the packages to use
