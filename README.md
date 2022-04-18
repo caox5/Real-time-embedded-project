@@ -52,7 +52,10 @@ This program is mainly used for elder people to keep them in safe, that is becau
  
  ### Concept
   - There are three stpes:
-    - 1. 
+    - 1. <b>Movement coefficient analysis</b>: the camera should have ability to distinguish whether the motion is falling or normal movement, when the value larger than 0.8, it assumes as falling, additionally, Sudden movements or walk perpendicular also have the high movement cofficient.
+    - 2. <b>Human shape analysis</b>: using ellipse to represent a person, when person falls, the sudden change of orientation and ratio of major and minor axis of ellipse would perfectly represent that person movement. In this case, using standard deviation to calculate the value because is the average amount of variability in dataset. Therefore, when people are falling, the angle theta and axis ration a/b will be higher than normal movement, based on tests and dataset from online, if angle theta greater than 15 degree and axis ratio larger than 0.9, it could considered as falling.
+    - <p align="center"><img alt="Screenshot 2022-04-18 at 10 45 01" src="https://user-images.githubusercontent.com/50026800/163798022-d8dc20c8-7104-4151-a761-fc2b66bb44fa.jpeg"  width="650px" height="400px"></p>
+    - 3. <b>Remain motionless</b>: the last algorithm is judging whether is really fall or not, the coefficient motion should less than 0.2 from twentieth and the thirtieth frame of the video after falling detected. which means that the time interval is from 0.83 to 1.25 seconds. 
 
  
 
