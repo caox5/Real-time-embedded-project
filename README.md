@@ -23,6 +23,7 @@
         <ul>
             <li><a href="#Connect hardware">Connect hardware</a>
             <li><a href="#Installation">Installation</a>
+            <li><a href="#OpenCV Test">OpenCV Test</a>   
         </ul>
 </ul>
             
@@ -101,4 +102,18 @@ Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ 
         sudo cp opencv.pc /usr/lib/arm-linux-gnueabihf/pkgconfig
         cd ~
         rm -rf opencv_cpp_compile_settings/
- <b>When you done these steps, you should be able to use the OpenCV library from C++ or Python.</b>
+ <b>When you done these steps, you should be able to use the OpenCV library from C++ or Python. You could use following test case on next part.</b>
+ 
+ ### OpenCV Test
+ - You can download the code on your Pi to test:
+ 
+        git clone https://github.com/sol-prog/raspberry-pi-opencv.git
+        cd raspberry-pi-opencv/tests   
+ - Build and Run C++ test: 
+ 
+        g++ cli_cpp_test.cpp -o cli_cpp_test `pkg-config --cflags --libs opencv`
+        ./cli_cpp_test
+ - If you have dispalys:
+ 
+        g++ gui_cpp_test.cpp -o gui_cpp_test `pkg-config --cflags --libs opencv`
+        ./gui_cpp_test
