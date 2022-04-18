@@ -23,7 +23,8 @@
         <ul>
             <li><a href="#Connect-hardware">Connect hardware</a>
             <li><a href="#Installation">Installation</a>
-            <li><a href="#OpenCV-Test">OpenCV Test</a>   
+            <li><a href="#OpenCV-Test">OpenCV Test</a>
+            <li><a href="#Run-Fall-Detection">Run Fall Detection</a>
         </ul>
 </ul>
             
@@ -121,3 +122,23 @@ Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ 
  
         g++ gui_cpp_test.cpp -o gui_cpp_test `pkg-config --cflags --libs opencv`
         ./gui_cpp_test
+
+### Run Fall Detection
+Install the Fall Detection:
+Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time-embedded-project/wiki/Installation-Guide), if everything works properly, then back to this step!
+
+- Download the Fall detection from the Github 
+
+        git clone https://github.com/caox5/Real-time-embedded-project
+        cd Real-time-embedded-project
+- You can compile the our project by using following command on RaspberryPi
+        
+        mkdir build
+        cd build
+        cmake ..
+        make
+- The 'project' is the executable file, run it
+
+        ./project
+- You should see the following pictures: 
+- <p align="center"><img alt="Screenshot 2022-04-18 at 21 02 59" src="https://user-images.githubusercontent.com/50026800/163869484-7a83954a-4e22-440d-bf1b-c2e009268b84.png" width="500px" height="400px"></p>
