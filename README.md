@@ -15,7 +15,7 @@
 <ul>
     <li><a href="#Introduction">Introduction</a>
         <ul>
-            <li><a href="#Software">Software</a>
+            <li><a href="#Software and programming language">Software and programming language</a>
             <li><a href="#Hardware">Hardware</a>
             <li><a href="#Concept">Concept</a>
         </ul>
@@ -53,10 +53,12 @@ This program is mainly used for elder people to keep them in safe, that is becau
 ## Quick start
   - This part will tell you how to connect hardwares and install the packages to use
  
-### Connect Hardware
-    
+### Connect hardware
+<p align="center">
+<img alt="Screenshot 2022-04-17 at 22 27 20" src="https://user-images.githubusercontent.com/50026800/163800636-5de2369b-844a-4926-9138-57d88edb5216.jpeg" width="500px" height="400px"></p>
 
 ### Installation
+
 
 
   
