@@ -19,18 +19,11 @@
             <li><a href="#Hardware">Hardware</a>
             <li><a href="#Concept">Concept</a>
         </ul>
-    <li><a href="#Set environment">Set environment</a>
+    <li><a href="#Quick start">Quick start</a>
         <ul>
-            <li><a href="#installation">Installation</a>
-                <ul>
-                    <li><a href="#run-the-executable">Run the program</a>
-                    <li><a href="#debug">Debug program</a>
-                </ul>
-            <li><a href="#running-tests">Running Tests</a>
+            <li><a href="#Connect hardware">Connect hardware</a>
+            <li><a href="#Installation">Installation</a>
         </ul>
-    <li><a href="#Usage">Usage</a>
-    <li><a href="#Documentation">Documentation</a>
-    <li><a href="#Stretch-Goals">Stretch Goals</a>
 </ul>
             
 ## Introduction
@@ -57,7 +50,13 @@ This program is mainly used for elder people to keep them in safe, that is becau
     - <p align="center"><img alt="Screenshot 2022-04-18 at 10 45 01" src="https://user-images.githubusercontent.com/50026800/163798022-d8dc20c8-7104-4151-a761-fc2b66bb44fa.jpeg"  width="650px" height="400px"></p>
     - 3. <b>Remain motionless</b>: the last algorithm is judging whether is really fall or not, the coefficient motion should less than 0.2 from twentieth and the thirtieth frame of the video after falling detected. which means that the time interval is from 0.83 to 1.25 seconds. 
 
+## Quick start
+  - This part will tell you how to connect hardwares and install the packages to use
  
+### Connect Hardware
+    
+
+### Installation
 
 
   
