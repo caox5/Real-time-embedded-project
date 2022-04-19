@@ -113,16 +113,12 @@ Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ 
  ### OpenCV Test
  - (Optional)You can download the code on your Pi to test:
  
-        git clone https://github.com/sol-prog/raspberry-pi-opencv.git
-        cd raspberry-pi-opencv/tests   
+        git clone https://github.com/caox5/Real-time-embedded-project.git
+        cd Real-time-embedded-project
  - Build and Run C++ test: 
  
-        g++ cli_cpp_test.cpp -o cli_cpp_test `pkg-config --cflags --libs opencv`
-        ./cli_cpp_test
- - If you have dispalys:
- 
-        g++ gui_cpp_test.cpp -o gui_cpp_test `pkg-config --cflags --libs opencv`
-        ./gui_cpp_test
+       g++ video.cpp -o video `pkg-config --cflags --libs opencv`
+        ./video
 
 ### Run Fall Detection
 Install the Fall Detection:
@@ -143,8 +139,7 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
         ./project
 - You should see the following pictures: 
 - <p align="center"><img alt="Screenshot 2022-04-18 at 21 02 59" src="https://user-images.githubusercontent.com/50026800/163869484-7a83954a-4e22-440d-bf1b-c2e009268b84.png" width="500px" height="400px"></p>
-- Running test:
 
-        g++ video.cpp -o video `pkg-config --cflags --libs opencv`
-        ./video
+
+        
         
