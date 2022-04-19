@@ -79,7 +79,8 @@ Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ 
         sudo mv opencv-4.1.0 /opt
         rm opencv-4.1.0-armhf.tar.bz2
 - 5 . Install couple of necessary libraries on OpenCV:
-
+        
+        sudo apt install cmake
         sudo apt install libtiff-dev zlib1g-dev
         sudo apt install libjpeg-dev libpng-dev
         sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
