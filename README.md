@@ -114,7 +114,7 @@ Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ 
  - (Optional)You can download the code on your Pi to test:
  
         git clone https://github.com/caox5/Real-time-embedded-project.git
-        cd Real-time-embedded-project
+        cd Real-time-embedded-project/test/
  - Build and Run C++ test: 
  
        g++ video.cpp -o video `pkg-config --cflags --libs opencv`
