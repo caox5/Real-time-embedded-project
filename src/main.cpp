@@ -25,8 +25,8 @@ int main() {
     FallDetector fallDetector;
 
     Mat frame, eroded, dilated;
-    Mat backgroundImg, foregroundImg;
-    Mat fgMaskMOG2;
+    Mat backgroundImg, foregroundImg; //"foregroundImg" is the moving object (the human body that will be tracked)
+    Mat fgMaskMOG2;//
     Mat history;
 
     Ptr<BackgroundSubtractorMOG2> pMOG2 = createBackgroundSubtractorMOG2();
