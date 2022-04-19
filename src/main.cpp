@@ -42,13 +42,13 @@ int main() {
     vector<double> xPos;  
     vector<double> yPos; //The coordinates of the center point of the ellipse
 
-    double movementCoefficientValue;
+    double movementCoefficientValue; //Coefficient of motion of an object
     double aRatioValue;
     double bRatioValue;
     double thetaRatioValue;
 
-    bool toBeChecked = false;
-    bool isFall = false;
+    bool toBeChecked = false; //Determine if the object requires further testing for falls.
+    bool isFall = false; //Determining whether an object has fallen
 
     namedWindow("Original", WINDOW_AUTOSIZE);
     namedWindow("Mask", WINDOW_AUTOSIZE);
@@ -76,8 +76,11 @@ int main() {
         pMOG2->setDetectShadows(false);
         pMOG2->apply(frame, fgMaskMOG2);
         pMOG2->getBackgroundImage(backgroundImg);
-
-        findContours(fgMaskMOG2, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0,0));
+        //Pre-processing of images. Transforms a color frame into a black and white frame showing only the foreground and background.
+        //Steps: 1. Convert to grayscale map. 2. Difference adjacent frames to obtain the difference map. 
+        //3. Substitute the difference map into the grayscale threshold model to distinguish between foreground and background. 4. Do dilate and erode on the image.
+        
+        findContours(fgMaskMOG2, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0,0)); //Fits and creates the contour points of the object.
 
         if(!toBeChecked) {
             largestContour.clear();
@@ -92,6 +95,7 @@ int main() {
                 largestContour = contours[i];
             }
         }
+        //Select the object with the largest contour area
 
 
         if(!largestContour.empty()) {
