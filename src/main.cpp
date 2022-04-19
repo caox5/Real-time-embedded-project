@@ -121,7 +121,7 @@ int main() {
             }
         }
 
-        //Steps 'c' for determining falls
+        //Step 'c' for determining falls
         if(toBeChecked) {
             fallDetector.checkIfStaysInPlace(start, &toBeChecked, &isFall, xPos, yPos);
         }
