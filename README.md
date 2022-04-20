@@ -54,7 +54,7 @@ This program is mainly used for elder people to keep them in safe, that is becau
  - mouse (not necessary)
  
  ### Concept
-  - There are three steps[^1]:
+  - There are three steps[^1][^2]:
     - 1. <b>Movement coefficient analysis</b>: the camera should have the ability to distinguish whether the motion is falling or normal movement, when the value is larger than 0.8, it assumes as falling, additionally, Sudden movements or walk perpendicular also have the high movement coefficient.
     - 2. <b>Human shape analysis</b>: using an ellipse to represent a person, when a person falls, the sudden change of orientation and ratio of the major and minor axis of the ellipse would perfectly represent that person's movement. In this case, using standard deviation to calculate the value is the average amount of variability in the dataset. Therefore, when people are falling, the angle theta and axis ratio a/b will be higher than normal movement, based on tests and datasets online, if the angle theta is greater than 15 degrees and the axis ratio is larger than 0.9, it could be considered falling.
     - <p align="center"><img alt="Screenshot 2022-04-18 at 10 45 01" src="https://user-images.githubusercontent.com/50026800/163798022-d8dc20c8-7104-4151-a761-fc2b66bb44fa.jpeg"  width="650px" height="400px"></p>
@@ -126,7 +126,7 @@ Follow the steps to install [OpenCV 4](https://opencv.org/) with Python and C++ 
        g++ video.cpp -o video `pkg-config --cflags --libs opencv`
         ./video
 
-### Run Fall Detection[^2]
+### Run Fall Detection[^3]
 Install the Fall Detection:
 Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time-embedded-project/wiki/Installation-Guide), if everything works properly, then back to this step!
 
@@ -148,7 +148,8 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 
 ## Reference
 [^1]: https://www.researchgate.net/publication/221910572_Video_Surveillance_for_Fall_Detection
-[^2]: https://github.com/ashwani227/humanBodyFallDetection
+[^2]: https://ieeexplore.ieee.org/abstract/document/6240925
+[^3]: https://github.com/ashwani227/humanBodyFallDetection
 
         
         
