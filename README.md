@@ -48,7 +48,10 @@ This program is mainly used for elder people to keep them in safe, that is becau
  - Raspberry Pi Camera Module V2.1 
    - <p align="center"><img  alt="Screenshot 2022-04-18 at 10 45 17" src="https://user-images.githubusercontent.com/50026800/163790875-b79c394a-8754-49ad-b413-951cd316d8dd.png" width="200px" height="150px"></p>
    - purchase link: https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module
- - 32 GB Micro-SD card
+ - 64 GB Micro-SD card (16 GB/32 GB Micro-SD card also works)
+ - monitor (necessary)
+ - keyboard (necessary)
+ - mouse (not necessary)
  
  ### Concept
   - There are three steps[^1]:
