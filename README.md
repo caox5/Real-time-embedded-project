@@ -2,6 +2,8 @@
 <p align="center">
 <img alt="Screenshot 2022-04-17 at 22 27 20" src="https://user-images.githubusercontent.com/50026800/163732671-387926f1-9513-4b1d-b710-4ed6c5dd5bbc.png" width="200px" height="200px"></p><br><br>
 
+https://user-images.githubusercontent.com/97770910/164187842-7714061e-b3e5-4bea-a51c-2a16744592f4.mp4
+
 <p align="center">
     <a href="https://github.com/caox5/Real-time-embedded-project/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/SunitaAcharya/myYogaMate.svg?style=flat&amp;label=Contributors&amp;maxAge=86400" alt="Contributors" /></a>
