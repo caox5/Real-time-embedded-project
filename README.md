@@ -143,8 +143,8 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 - <p align="center"><img alt="Screenshot 2022-04-18 at 21 02 59" src="https://user-images.githubusercontent.com/50026800/163869484-7a83954a-4e22-440d-bf1b-c2e009268b84.png" width="500px" height="400px"></p>
 
 ### Reference
-[1]: https://www.researchgate.net/publication/221910572_Video_Surveillance_for_Fall_Detection
-[2]: https://github.com/ashwani227/humanBodyFallDetection
+[^1]: https://www.researchgate.net/publication/221910572_Video_Surveillance_for_Fall_Detection
+[^2]: https://github.com/ashwani227/humanBodyFallDetection
 
         
         
