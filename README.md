@@ -50,7 +50,7 @@ This program is mainly used for elder people to keep them in safe, that is becau
    - purchase link: https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module
  - 64 GB Micro-SD card (16 GB/32 GB Micro-SD card also works)
  - monitor (necessary)
- - keyboard (necessary)
+ - keyboard (not necessary)
  - mouse (not necessary)
  
  ### Concept
