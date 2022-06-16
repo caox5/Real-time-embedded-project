@@ -29,9 +29,9 @@ class Emailer:
 
 sender = Emailer()
 
-sendTo = 'loowing397@163.com' #Change this to the email you wish to send to
-emailSubject = "Falldetector" #The Subject of the Email
-emailContent = "Fall has been detected!!!" #The Content / Body of the email
+sendTo = 'loowing397@163.com' #Change this to the email you wish to send to (could change)
+emailSubject = "Falldetector" #The Subject of the Email (could change)
+emailContent = "Fall has been detected!!!" #The Content / Body of the email (could change)
 
 #Sends an email to the "sendTo" address with the specified "emailSubject" as the subject and "emailContent" as the email content.
 sender.sendmail(sendTo, emailSubject, emailContent)
