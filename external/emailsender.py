@@ -24,7 +24,7 @@ class Emailer:
 #Login to Gmail
         session.login(GMAIL_USERNAME, GMAIL_PASSWORD)
 
-#Send Email & Exit
+#Send Email and Exit
         session.sendmail(GMAIL_USERNAME, recipient, headers + "\r\n\r\n" + content)
         session.quit
 
