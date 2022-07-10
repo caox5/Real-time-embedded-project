@@ -1,3 +1,4 @@
+# should have callbacks. Not just written as a loop.
 #pragma once
 
 #include "FallDetector.h"
