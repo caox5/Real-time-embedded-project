@@ -28,7 +28,8 @@ https://user-images.githubusercontent.com/97770910/164187842-7714061e-b3e5-4bea-
             <li><a href="#OpenCV-Test">OpenCV Test</a>
             <li><a href="#Run-Fall-Detection">Run Fall Detection</a>
         </ul>
-    <li><a href>="#Credits">Credits</a>
+    <li><a href="#Social-Media">Social Media</a>
+    <li><a href="#Credits">Credits</a>
     <li><a href="#Reference">Reference</a>
 </ul>
             
@@ -145,6 +146,11 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
         ./FallDetectionRpi
 - You should see the following pictures: 
 - <p align="center"><img alt="Screenshot 2022-04-18 at 21 02 59" src="https://user-images.githubusercontent.com/50026800/163869484-7a83954a-4e22-440d-bf1b-c2e009268b84.png" width="500px" height="400px"></p>
+
+## Social Media
+ Follow us on:
+ - Bilibili
+ - YouTube
 
 ## Credits
  The fall detection progect is maintained by the PTEP_Progect_Team 13, from University of Glasgow. The members of the group are:
