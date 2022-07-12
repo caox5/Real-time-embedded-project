@@ -148,9 +148,9 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 
 ## Credits
  The fall detection progect is maintained by the PTEP_Progect_Team 13. The members of the group are:
- - Xin Cao 
- - Ying Li 
- - Dingrui Chen 
+ - Xin Cao https://github.com/caox5
+ - Ying Li https://github.com/807river
+ - Dingrui Chen https://github.com/2646944C
  - Jingben Xu 
  
 ## Reference
