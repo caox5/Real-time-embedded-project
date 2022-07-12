@@ -145,6 +145,13 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 - You should see the following pictures: 
 - <p align="center"><img alt="Screenshot 2022-04-18 at 21 02 59" src="https://user-images.githubusercontent.com/50026800/163869484-7a83954a-4e22-440d-bf1b-c2e009268b84.png" width="500px" height="400px"></p>
 
+## Credits
+ The fall detection progect is maintained by the PTEP_Progect_Team 13. The members of the group are:
+ -Xin Cao 
+ -Ying Li 
+ -Dingrui Chen 
+ -Jingben Xu 
+ 
 ## Reference
 [^1]: https://www.researchgate.net/publication/221910572_Video_Surveillance_for_Fall_Detection
 [^2]: https://ieeexplore.ieee.org/abstract/document/6240925
