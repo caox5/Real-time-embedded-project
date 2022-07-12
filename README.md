@@ -28,6 +28,7 @@ https://user-images.githubusercontent.com/97770910/164187842-7714061e-b3e5-4bea-
             <li><a href="#OpenCV-Test">OpenCV Test</a>
             <li><a href="#Run-Fall-Detection">Run Fall Detection</a>
         </ul>
+    <li><a href>="#Credits">Credits</a>
     <li><a href="#Reference">Reference</a>
 </ul>
             
@@ -147,10 +148,10 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 
 ## Credits
  The fall detection progect is maintained by the PTEP_Progect_Team 13. The members of the group are:
- -Xin Cao 
- -Ying Li 
- -Dingrui Chen 
- -Jingben Xu 
+ - Xin Cao 
+ - Ying Li 
+ - Dingrui Chen 
+ - Jingben Xu 
  
 ## Reference
 [^1]: https://www.researchgate.net/publication/221910572_Video_Surveillance_for_Fall_Detection
