@@ -157,7 +157,7 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
  - Xin Cao https://github.com/caox5
  - Ying Li https://github.com/807river
  - Dingrui Chen https://github.com/2646944C
- - Jingben Xu 
+ - Jingben Xu 494072030@qq.com
  
 ## Reference
 [^1]: https://www.researchgate.net/publication/221910572_Video_Surveillance_for_Fall_Detection
