@@ -1,4 +1,5 @@
 # should have callbacks, returns. Not just written as a loop.
+# Each function can be separated into different files for execution.
 #pragma once
 
 #include "FallDetector.h"
