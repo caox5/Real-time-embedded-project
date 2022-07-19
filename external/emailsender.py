@@ -1,4 +1,3 @@
-#This function of sending email can be implemented in both C++ and Python language. It is easier to implement in Python.
 import smtplib
 
 #Email Variables
