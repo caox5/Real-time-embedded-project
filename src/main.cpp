@@ -71,11 +71,11 @@ int main() {
             cap >> frame;
         }
 
-        //Pre-processing of images. Transforms a color frame into a black and white frame showing only the foreground and background.
-        //Steps: 1. Convert to grayscale map. 
-        //2. Difference adjacent frames to obtain the difference map. 
-        //3. Substitute the difference map into the grayscale threshold model to distinguish between foreground and background. 
-        //4. Do dilate and erode on the image.
+        // Pre-processing of images. Transforms a color frame into a black and white frame showing only the foreground and background.
+        // Steps: 1. Convert to grayscale map. 
+        // 2. Difference adjacent frames to obtain the difference map. 
+        // 3. Substitute the difference map into the grayscale threshold model to distinguish between foreground and background. 
+        // 4. Do dilate and erode on the image.
         pMOG2->setHistory(20);
         pMOG2->setNMixtures(10);
         pMOG2->setDetectShadows(false);
