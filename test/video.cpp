@@ -11,7 +11,7 @@ int main(int argc, char** argv)
 {
     Mat frame;
     VideoCapture cap;
-    // open the default camera, use something different from 0 otherwise;
+    // open the default camera, and use something different from 0 otherwise;
     // Check VideoCapture documentation.
     if(!cap.open(0))
         return 0;
