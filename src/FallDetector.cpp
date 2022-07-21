@@ -37,7 +37,6 @@ void FallDetector::checkIfStaysInPlace(time_t start, bool* isChecking, bool* isF
         counter = 0;
         }
         
-
     }
 
     if (!isFall && secondsSinceStart > 2) {
