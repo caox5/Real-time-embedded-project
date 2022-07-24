@@ -91,7 +91,7 @@ int main() {
 
         double maxArea = 0.0;
 
-        //Select the object with the largest contour area
+        //Select the object with the largest contour area 
         for(size_t i = 0; i < contours.size(); i++) {
             double area = contourArea(contours[i], false);
             if(area > maxArea && area > 500) {
