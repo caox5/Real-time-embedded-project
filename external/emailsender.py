@@ -1,3 +1,4 @@
+# The email sending function use a part of Python
 import smtplib
 
 #Email Variables
