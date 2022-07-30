@@ -149,7 +149,6 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 
 ## Social Media
  Follow us on:
- - Bilibili
  - YouTube
 
 ## Credits
