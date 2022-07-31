@@ -6,6 +6,7 @@ This link is detailed video about fall detection project https://www.youtube.com
 
 <p align="center">
 Video about how to run project</p>
+
 https://user-images.githubusercontent.com/97770910/164187842-7714061e-b3e5-4bea-a51c-2a16744592f4.mp4
 
 
