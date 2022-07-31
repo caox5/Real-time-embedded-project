@@ -36,7 +36,6 @@ void FallDetector::checkIfStaysInPlace(time_t start, bool* isChecking, bool* isF
         system("sudo python3 /home/pi/Real-time-embedded-project/external/emailsender.py");
         counter = 0;
         }
-        
     }
 
     if (!isFall && secondsSinceStart > 2) {
