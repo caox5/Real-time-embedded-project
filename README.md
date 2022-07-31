@@ -161,10 +161,10 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 
 ## Credits
  The fall detection progect is maintained by the PTEP_Progect_Team 13, from University of Glasgow. The members of the group are:
- - Xin Cao https://github.com/caox5
- - Ying Li https://github.com/807river
- - Dingrui Chen https://github.com/2646944C
- - Jingben Xu https://github.com/Xubenbenn
+ - Xin Cao Transform the concept to programming language, espcially for circling the object https://github.com/caox5
+ - Ying Li Hardware connection, do falling test, and video clip https://github.com/807river
+ - Dingrui Chen Doing the message and testing the main https://github.com/2646944C
+ - Jingben Xu Transform the concept to programming language, especially for falling detection algorithm https://github.com/Xubenbenn
  
 ## Reference
 [^1]: https://www.researchgate.net/publication/221910572_Video_Surveillance_for_Fall_Detection
