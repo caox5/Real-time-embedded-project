@@ -157,7 +157,7 @@ Make sure you finish the [Installation Guide](https://github.com/caox5/Real-time
 
 ## Social Media
  Follow us on:
- - YouTube
+ - YouTube https://www.youtube.com/watch?v=-Ju0XbX4tBc
 
 ## Credits
  The fall detection progect is maintained by the PTEP_Progect_Team 13, from University of Glasgow. The members of the group are:
