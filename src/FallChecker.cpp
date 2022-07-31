@@ -40,7 +40,7 @@
         pMOG2->getBackgroundImage(backgroundImg);
         
         
-        findContours(fgMaskMOG2, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0,0)); //Fits and creates the contour points of the object.
+        findContours(fgMaskMOG2, contours, hierarchy, RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0,0)); // Fits and creates the contour points of the object.
 
         if(!toBeChecked) {
             largestContour.clear();
