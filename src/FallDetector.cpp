@@ -88,7 +88,7 @@ void FallDetector::checkMovementAfterFall(bool* toBeChecked, bool *isFall, vecto
     double yDevValue = this->getStddev(&yPos);
 
     cout << "X pos: " << xDevValue;
-    cout << ", Y pos: " << yDevValue << "\n";
+    cout << ", Y pos: " << yDevValue << " \n";
 
     if(xDevValue > 2 && yDevValue > 2) {
         *isFall = false;
