@@ -3,6 +3,7 @@
 <img alt="Screenshot 2022-04-17 at 22 27 20" src="https://user-images.githubusercontent.com/50026800/163732671-387926f1-9513-4b1d-b710-4ed6c5dd5bbc.png" width="200px" height="200px"></p><br><br>
 
 https://user-images.githubusercontent.com/97770910/164187842-7714061e-b3e5-4bea-a51c-2a16744592f4.mp4
+
 This link is detailed video about fall detection project https://www.youtube.com/watch?v=-Ju0XbX4tBc
 
 <p align="center">
