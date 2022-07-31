@@ -93,6 +93,6 @@ void FallDetector::checkMovementAfterFall(bool* toBeChecked, bool *isFall, vecto
 
     if(xDevValue > 2 && yDevValue > 2) {
         *isFall = false;
-        *toBeChecked = false;
+        *toBeChecked = false; 
     }
 }
