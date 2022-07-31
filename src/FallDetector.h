@@ -7,7 +7,7 @@ using namespace std;
 using namespace cv;
 
 class FallDetector {
-public:
+public: 
     double getStddev(vector<double>* vec);
     double getMovementCoefficient(Mat* foreground,Mat* history);
     void analyzePosition(Mat* frame, vector<double>* thetaRatio, vector<double>* aRatio, vector<double>* bRatio, vector<double>* xPos, vector<double>* yPos, vector<Point> largestContour);
