@@ -4,6 +4,7 @@
 
 This link is detailed video about fall detection project https://www.youtube.com/watch?v=-Ju0XbX4tBc
 
+<br>
 <p align="center">
 Video about how to run project</p>
 
