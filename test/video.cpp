@@ -11,8 +11,10 @@ int main(int argc, char** argv)
 {
     Mat frame;
     VideoCapture cap;
+    
     // open the default camera, and use something different from 0 otherwise;
     // Check VideoCapture documentation.
+    
     if(!cap.open(0))
         return 0;
     for(;;)
@@ -22,6 +24,7 @@ int main(int argc, char** argv)
           imshow("Camera", frame);
           if( (waitKey(10)%256) == 27 ) break; // waitKeypatch: check for 10ms: then stop capturing by pressing ESC=27
     }
+    
     // the camera will be closed automatically upon exit
     //cap.close();
     return 0;
