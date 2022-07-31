@@ -110,5 +110,5 @@
 
     cap.release();
     frame.release();
-    destroyAllWindows();
+    destroyAllWindows(); 
 }
