@@ -8,7 +8,7 @@ This link is detailed video about fall detection project https://www.youtube.com
 <p align="center">
 Video about how to run project</p>
 
-<p align="center"> https://user-images.githubusercontent.com/97770910/182027026-cf73fcd0-52e1-4f75-af4c-fc9c4ddf3fb6.mp4</p>
+https://user-images.githubusercontent.com/97770910/182027026-cf73fcd0-52e1-4f75-af4c-fc9c4ddf3fb6.mp4
 
 
 
