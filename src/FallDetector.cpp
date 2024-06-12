@@ -3,7 +3,7 @@
 #include "FallDetector.h"
 
 int counter = 0;
-
+  
 
 double FallDetector::getStddev(vector<double>* vec) {
     Scalar mean, stddev;
